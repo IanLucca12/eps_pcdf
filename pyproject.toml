@@ -17,7 +17,7 @@ safety = "poetry update safety"
 pydantic = "*"
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.ruff]
