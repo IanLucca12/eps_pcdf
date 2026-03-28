@@ -140,13 +140,13 @@ ianlucca@Ian:~/secops_pcdf$
 
 ## 3. Evidência de Integração Contínua (CI)
 O pipeline automatizado foi executado com sucesso no GitHub Actions:
-- **Link da Action de Sucesso:** [COLE AQUI O LINK DO SEU GITHUB ACTIONS]
+- **Link da Action de Sucesso:** [Link de funcionamento do Action](https://github.com/IanLucca12/eps_pcdf/actions/runs/23690836457/job/69017989238)
 
 ## 4. Declaração de Soberania Técnica (CISSP Domain 8)
-Eu, [Nome do Aluno], declaro que auditei manualmente as ferramentas e dependências deste projeto. Confirmo que o código gerado via IA (GitHub Copilot) passou pela minha revisão humana (*Human-in-the-loop*), garantindo que não há vazamento de segredos ou falhas lógicas críticas antes da migração para o ecossistema da PCDF.
+Eu, Ian Lucca Soares Mesquita, declaro que auditei manualmente as ferramentas e dependências deste projeto. Confirmo que o código gerado via IA (GitHub Copilot) passou pela minha revisão humana (*Human-in-the-loop*), garantindo que não há vazamento de segredos ou falhas lógicas críticas antes da migração para o ecossistema da PCDF.
 
 ---
-**Data de Entrega:** [DD/MM/2026]
+**Data de Entrega:** [28/03/2026]
 
 ## Observações Adicionais
 
