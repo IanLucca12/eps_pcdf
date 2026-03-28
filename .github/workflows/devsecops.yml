@@ -30,7 +30,7 @@ jobs:
         run: poetry install --with dev
 
       - name: SAST - Bandit
-        run: poetry run bandit -r . --exclude .venv,tests
+        run: poetry run bandit -r . --exclude ./.venv,./tests
 
       - name: Linter - Ruff
         run: poetry run ruff check .
