@@ -21,12 +21,10 @@ jobs:
           python-version: "3.12"
 
       - name: Instalar Poetry
-        run: |
-          curl -sSL https://install.python-poetry.org | python3 -
-          echo "$HOME/.local/bin" >> $GITHUB_PATH
-
-      - name: Configurar ambiente virtual dentro do projeto
-        run: poetry config virtualenvs.in-project true
+        uses: snok/install-poetry@v1
+        with:
+          version: latest
+          virtualenvs-in-project: true
 
       - name: Instalar dependências
         run: poetry install --with dev
@@ -44,3 +42,4 @@ jobs:
         uses: gitleaks/gitleaks-action@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
