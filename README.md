@@ -1,6 +1,7 @@
 # Relatório de Prontidão Técnica: Onboarding SecOps
 **Disciplina:** Engenharia de Produto de Software (FGA0316) - 2026.1
 **Aluno:** Ian Lucca Soares Mesquita | **Matrícula:** 211045140
+**Link do repositório:** [eps_pcdf](https://github.com/IanLucca12/eps_pcdf)
 
 ## 1. Configuração do Ambiente (Zero Trust & Isolamento)
 Conforme as diretrizes de Soberania Técnica, as seguintes configurações foram aplicadas:
