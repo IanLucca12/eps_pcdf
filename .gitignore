@@ -1,0 +1,39 @@
+# Ambiente virtual
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Poetry
+poetry.lock
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Segurança - nunca commitar
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Relatórios de segurança 
+bandit-report.txt
+safety-report.txt
+
+#ruff cache
+
+.ruff_cache

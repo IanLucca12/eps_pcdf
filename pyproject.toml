@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "secops-pcdf"
+version = "0.1.0"
+description = "Projeto SecOps - Fase 1 - PCDF"
+authors = ["IanLucca12 <ian.lucca.mesquita@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0"
+
+[tool.poetry.group.dev.dependencies]
+bandit = "*"
+ruff = "*"
+safety = "poetry update safety"
+pydantic = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.bandit]
+exclude_dirs = [".venv", "tests"]
